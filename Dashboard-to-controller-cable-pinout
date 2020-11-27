@@ -1,0 +1,10 @@
+There is a cable going from the dashboard to the controller. 
+Four wires arrive at the Dashboard. 
+From the controller up towards the handlebar actually six wires departure in total. Two of them are for the headlights and det spliced off before arriving to the dashboard. 
+
+Silkscreen label on dashboard           Function          Color         Behaviour
+TX                                      Serial data       white         
+-                                       GND               black
++                                       12V               red           Only 12V when scooter on.
+Key                                     Startup           yellow        When scooter is off, Battery volate. Gets pulled to GND by pushbutton.
+                                                                        When scooter is on, 3.3v
